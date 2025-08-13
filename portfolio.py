@@ -53,7 +53,7 @@ with tab2:
     st.markdown("#### [Gerador de DXF] Gerador de Desenhos em Lote")
     st.write("Uma aplicação Web desenvolvido em Python utilizando o Flask para geração de arquivos limpos de desenhos em lote.\nCom ela é possivel gerar desenhos limpos para corte laser.")
     if st.button("acessar_gerador_dxf"):
-        webbrowser.open_new_tab("https://github.com/SEU_USUARIO/SEU_PROJETO_1")
+        webbrowser.open_new_tab("https://github.com/MaaTT2000/gerador-de-dxf")
     st.write("---")
     
     st.markdown("#### [ Projeto Analisador de Dxf] - Aplicação para Análise de Desenhos")
