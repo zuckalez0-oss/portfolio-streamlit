@@ -50,15 +50,15 @@ with tab2:
     command_text_3 = "z1p0l0ck@localhost:~/projetos$ ls -la"
     st.markdown(f"<h3 class='glitch-effect' data-text='{command_text_3}'>{command_text_3}</h3>", unsafe_allow_html=True)
     
-    st.markdown("#### [ Projeto Alpha ] - Bot de Análise de Cripto")
-    st.write("Um bot para Telegram construído em Python que monitora o mercado de criptomoedas em tempo real...")
-    if st.button("ver_codigo_fonte_alpha"):
+    st.markdown("#### [Gerador de DXF] Gerador de Desenhos em Lote")
+    st.write("Uma aplicação Web desenvolvido em Python utilizando o Flask para geração de arquivos limpos de desenhos em lote.\nCom ela é possivel gerar desenhos limpos para corte laser.")
+    if st.button("acessar-código"):
         webbrowser.open_new_tab("https://github.com/SEU_USUARIO/SEU_PROJETO_1")
     st.write("---")
     
-    st.markdown("#### [ Projeto Beta ] - Dashboard Interativo")
-    st.write("Dashboard de vendas criado com Streamlit e Pandas. Permite a visualização de dados de forma interativa...")
-    if st.button("ver_codigo_fonte_beta"):
+    st.markdown("#### [ Projeto Analisador de Dxf] - Aplicação para Análise de Desenhos")
+    st.write("App desenvolvido em Python, utilizando a biblioteca ezdxf com ela é possivel vizualizar arquivos de desenhos e trata-los caso necessário...")
+    if st.button("acessar-código"):
         webbrowser.open_new_tab("https://github.com/SEU_USUARIO/SEU_PROJETO_2")
     st.write("---")
     
