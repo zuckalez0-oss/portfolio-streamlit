@@ -50,16 +50,26 @@ with tab2:
     command_text_3 = "z1p0l0ck@localhost:~/projetos$ ls -la"
     st.markdown(f"<h3 class='glitch-effect' data-text='{command_text_3}'>{command_text_3}</h3>", unsafe_allow_html=True)
     
-    st.markdown("#### [Gerador de DXF] Gerador de Desenhos em Lote")
-    st.write("Uma aplicação Web desenvolvido em Python utilizando o Flask para geração de arquivos limpos de desenhos em lote.\nCom ela é possivel gerar desenhos limpos para corte laser.")
-    if st.button("acessar_gerador_dxf"):
-        webbrowser.open_new_tab("https://github.com/MaaTT2000/gerador-de-dxf")
-    st.write("---")
     
-    st.markdown("#### [ Projeto Analisador de Dxf] - Aplicação para Análise de Desenhos")
-    st.write("App desenvolvido em Python, utilizando a biblioteca ezdxf com ela é possivel vizualizar arquivos de desenhos e trata-los caso necessário...")
-    if st.button("acessar_analisador_dxf"):
-        webbrowser.open_new_tab("https://github.com/SEU_USUARIO/SEU_PROJETO_2")
+    st.markdown("#### [ Projeto Alpha ] - Bot de Análise de Cripto")
+    st.write(
+        "Um bot para Telegram construído em Python que monitora o mercado de criptomoedas em tempo real, "
+        "utilizando APIs da Binance e notificando sobre oportunidades de compra/venda."
+    )
+    
+    link_alpha = "https://github.com/SEU_USUARIO/SEU_PROJETO_1"
+    st.markdown(f'<div class="button-link"><a href="{link_alpha}" target="_blank">ver_codigo_fonte_alpha</a></div>', unsafe_allow_html=True)
+    st.write("---")
+
+
+    st.markdown("#### [ Projeto Beta ] - Dashboard Interativo")
+    st.write(
+        "Dashboard de vendas criado com Streamlit e Pandas. Permite a visualização de dados de forma "
+        "interativa, com filtros dinâmicos e gráficos gerados na hora. Hospedado diretamente do Termux."
+    )
+    
+    link_beta = "https://github.com/SEU_USUARIO/SEU_PROJETO_2"
+    st.markdown(f'<div class="button-link"><a href="{link_beta}" target="_blank">ver_codigo_fonte_beta</a></div>', unsafe_allow_html=True)
     st.write("---")
     
 with tab3:
