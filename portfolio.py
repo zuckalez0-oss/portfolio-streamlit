@@ -58,7 +58,7 @@ with tab2:
     
     st.markdown("#### [ Projeto Analisador de Dxf] - Aplicação para Análise de Desenhos")
     st.write("App desenvolvido em Python, utilizando a biblioteca ezdxf com ela é possivel vizualizar arquivos de desenhos e trata-los caso necessário...")
-    if st.button("acessar_código"):
+    if st.button("acessar_fontr"):
         webbrowser.open_new_tab("https://github.com/SEU_USUARIO/SEU_PROJETO_2")
     st.write("---")
     
