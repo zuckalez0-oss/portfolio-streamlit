@@ -102,14 +102,12 @@ button[type="submit"]:hover { background-color: #000000; color: #00FF00; }
 
 /*
 ================================================================
---- REGRAS DE RESPONSIVIDADE PARA DISPOSITIVOS MÓVEIS ---
-A mágica acontece aqui. Se a tela tiver 768px de largura ou menos,
-as regras abaixo sobrescrevem as regras de cima.
+--- REGRAS DE RESPONSIVIDADE
 ================================================================
 */
 @media (max-width: 768px) {
 
-    /* Alvo 1: Reduz drasticamente o título principal */
+    
     h1.typing-effect {
         font-size: 1.4em; /* Bem menor para caber na tela */
         letter-spacing: .05em; /* Menos espaçamento */
@@ -134,4 +132,21 @@ as regras abaixo sobrescrevem as regras de cima.
         padding-left: 0.8rem;
         padding-right: 0.8rem;
     }
+}
+
+
+.button-link a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid #00FF00;
+    color: #00FF00;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 0.9em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-link a:hover {
+    background-color: #00FF00;
+    color: #000000;
 }
