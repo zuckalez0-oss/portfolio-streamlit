@@ -68,7 +68,7 @@ with tab3:
     
     st.write("Payload de contato. Preencha os campos abaixo para iniciar uma conexão direta.")
     contact_form = """
-    <form action="https://formsubmit.co/matheus.z1p0lock@gmail.com" method="POST">
+    <form action="https://formsubmit.co/matheus.z1p0l0ck@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Assinatura (seu nome)" required>
         <input type="email" name="email" placeholder="Endereço de resposta (seu email)" required>
