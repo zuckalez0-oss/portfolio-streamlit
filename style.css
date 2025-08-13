@@ -1,0 +1,137 @@
+/* --- FUNDO ANIMADO E CONFIGURAÇÕES GERAIS (DESKTOP) --- */
+@keyframes background-pan {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background-color: #000000;
+}
+
+.stApp {
+    background: linear-gradient(90deg, #000000, #051405, #000000);
+    background-size: 200% 200%;
+    animation: background-pan 15s ease-in-out infinite;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* --- EFEITO DE DIGITAÇÃO PARA O TÍTULO PRINCIPAL (DESKTOP) --- */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #00FF00; }
+}
+
+h1.typing-effect {
+    font-size: 2.5em; /* Tamanho para telas maiores */
+    overflow: hidden;
+    border-right: .15em solid #00FF00;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+/* --- EFEITO GLITCH PARA OS CABEÇALHOS DE COMANDO --- */
+.glitch-effect {
+    position: relative;
+    animation: glitch-anim 5s infinite steps(1);
+}
+
+.glitch-effect::before,
+.glitch-effect::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.glitch-effect::before {
+    left: 2px;
+    text-shadow: -2px 0 #00FF00;
+    animation: glitch-before 2.5s infinite linear reverse;
+}
+
+.glitch-effect::after {
+    left: -2px;
+    text-shadow: -2px 0 #00c2cb, 2px 2px #ff005d;
+    animation: glitch-after 2s infinite linear reverse;
+}
+
+@keyframes glitch-before {
+    0%, 2%, 8%, 80%, 83%, 100% { clip-path: inset(0 0 0 0); }
+    4% { clip-path: inset(25% 0 65% 0); }
+    10% { clip-path: inset(80% 0 5% 0); }
+    82% { clip-path: inset(5% 0 90% 0); }
+}
+
+@keyframes glitch-after {
+    0%, 3%, 10%, 75%, 85%, 100% { clip-path: inset(0 0 0 0); }
+    1% { clip-path: inset(50% 0 25% 0); }
+    5% { clip-path: inset(10% 0 85% 0); }
+    80% { clip-path: inset(90% 0 2% 0); }
+}
+
+/* --- ESTILOS DO FORMULÁRIO E BOTÕES --- */
+form { display: flex; flex-direction: column; gap: 1rem; width: 100%; }
+input, textarea { background-color: #1C1C1C; color: #00FF00; border: 1px solid #00FF00; border-radius: 0px; padding: 0.8rem; font-family: monospace; }
+::placeholder { color: #00FF00; opacity: 0.6; }
+button[type="submit"] { background-color: #00FF00; color: #000000; font-weight: bold; border: 1px solid #00FF00; border-radius: 0px; padding: 1rem; cursor: pointer; transition: background-color 0.3s, color 0.3s; font-family: monospace; text-transform: uppercase; }
+button[type="submit"]:hover { background-color: #000000; color: #00FF00; }
+
+/* --- ÍCONES DE REDES SOCIAIS --- */
+.social-icons { display: flex; justify-content: center; align-items: center; gap: 25px; padding-top: 20px; }
+.social-icons a svg { width: 28px; height: 28px; fill: #00FF00; opacity: 0.7; transition: opacity 0.3s, transform 0.3s; }
+.social-icons a:hover svg { opacity: 1; transform: scale(1.2) rotate(5deg); }
+
+
+/*
+================================================================
+--- REGRAS DE RESPONSIVIDADE PARA DISPOSITIVOS MÓVEIS ---
+A mágica acontece aqui. Se a tela tiver 768px de largura ou menos,
+as regras abaixo sobrescrevem as regras de cima.
+================================================================
+*/
+@media (max-width: 768px) {
+
+    /* Alvo 1: Reduz drasticamente o título principal */
+    h1.typing-effect {
+        font-size: 1.4em; /* Bem menor para caber na tela */
+        letter-spacing: .05em; /* Menos espaçamento */
+    }
+
+    /* Alvo 2: Ajusta os outros textos */
+    h3.glitch-effect {
+        font-size: 1.1em;
+    }
+    
+    h4 {
+        font-size: 1.0em;
+    }
+
+    div[data-testid="stApp"] p, 
+    div[data-testid="stApp"] li {
+        font-size: 0.9em;
+    }
+    
+    /* Alvo 3: Reduz o espaçamento lateral */
+    .block-container {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+}
