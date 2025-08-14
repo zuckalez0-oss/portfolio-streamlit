@@ -67,5 +67,5 @@ Este projeto mostra como combino o acesso de baixo nível do Termux com a criaç
 
 Estou em busca de desafios onde possa aplicar minhas habilidades únicas de automação com Python e Termux. Se você tem um projeto que parece impossível ou precisa de uma solução criativa, vamos conversar!
 
-- 📧 **E-mail:** [z1p0l0ck](mailto:seu.email@exemplo.com)
-- 💼 **LinkedIn:** [https://linkedin.com/in/seu-linkedin](https://linkedin.com/in/seu-linkedin)
+- 📧 **E-mail:** matheus.[z1p0l0ck@gmail.com](mailto:seu.email@exemplo.com)
+- 💼 **LinkedIn:** [https://www.linkedin.com/in/matheus-ribeiro-bbb894237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app](https://linkedin.com/in/seu-linkedin)
