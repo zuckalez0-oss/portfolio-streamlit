@@ -59,7 +59,7 @@ Este projeto mostra como combino o acesso de baixo nível do Termux com a criaç
 
 ### 📊 Minhas Estatísticas no GitHub
 
-![Estatísticas de [zuckalez0-oss] no GitHub](https://github-readme-stats.vercel.app/api?username=[zuckalez0-oss]&show_icons=true&theme=dracula&include_all_commits=true&count_private=true)
+![Estatísticas de [zuckalez0] no GitHub](https://github-readme-stats.vercel.app/api?username=[zuckalez0]&show_icons=true&theme=dracula&include_all_commits=true&count_private=true)
 
 ---
 
