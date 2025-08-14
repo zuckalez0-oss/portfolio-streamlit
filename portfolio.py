@@ -68,8 +68,8 @@ with tab2:
         "interativa, com filtros dinâmicos e gráficos gerados na hora. Hospedado diretamente do Termux."
     )
     
-    link_beta = "https://github.com/SEU_USUARIO/SEU_PROJETO_2"
-    st.markdown(f'<div class="button-link"><a href="{link_beta}" target="_blank">ver_codigo_fonte_beta</a></div>', unsafe_allow_html=True)
+    link_beta = "https://github.com/zuckalez0-oss/dashboard-vendas"
+    st.markdown(f'<div class="button-link"><a href="{link_beta}" target="_blank">ver_codigo_fonte_dashboard</a></div>', unsafe_allow_html=True)
     st.write("---")
     
 with tab3:
