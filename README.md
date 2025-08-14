@@ -1,4 +1,4 @@
-# Olá, eu sou [z1p0l0ck]! 👋
+# Olá, eu sou z1p0l0ck! 👋
 
 ## Desenvolvedor Python com Foco em Automações na Plataforma Termux
 
@@ -55,13 +55,7 @@ Este projeto mostra como combino o acesso de baixo nível do Termux com a criaç
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
----
 
-### 📊 Minhas Estatísticas no GitHub
-
-![Estatísticas de [zuckalez0] no GitHub](https://github-readme-stats.vercel.app/api?username=[zuckalez0]&show_icons=true&theme=dracula&include_all_commits=true&count_private=true)
-
----
 
 ### 📫 Entre em Contato
 
